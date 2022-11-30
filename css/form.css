@@ -1,0 +1,21 @@
+.form__label {
+    width: 200px;
+    display: inline-block;
+}
+
+.form__select {
+    width: 300px;
+}
+
+.form__value {
+    width: 300px;
+}
+
+.form__button {
+    padding: 10px;
+    width: 100%;
+}
+
+.form__result {
+    text-align: center;
+}
