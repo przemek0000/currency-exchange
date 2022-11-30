@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-5b</title>
+    <link href="images/5pln.png" rel="icon">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <script defer src="js/scripts.js"></script>
@@ -20,8 +21,8 @@
             Kalkulator walut
         </h1>
         <form class="js-form">
-            <fieldset>
-                <legend>
+            <fieldset class="form__fieldset">
+                <legend class="form__title">
                     PLN
                 </legend>
                 <p>
@@ -41,16 +42,15 @@
                         <span class="form__label">
                             Wprowadź wartość: 
                         </span>
-                        <input class="form__value js-value" name="input" type="number" min="0.01" step="any">
+                        <input class="form__value js-value" name="input" type="number" min="0.01" step="any" placeholder="Wprowadź wartość" autofocus>
                     </label>
                 </p>
                 <p>
                     <button class="form__button" name="button">Przelicz</button>
                 </p>
-                <hr>
-                <p class="form__result">
-                    <strong class="js-result">N/A</strong>
-                </p>
+                <div class="form__result">
+                    <strong class="form__textResult js-result">N/A</strong>
+                </div>
             </fieldset>
         </form>
     </div>
