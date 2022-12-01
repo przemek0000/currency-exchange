@@ -17,7 +17,7 @@
         const value = elementValue.value;
         const select = elementSelect.value;
         const result = calculate(select, value);
-        elementResult.innerText = `${elementValue.value} PLN = ${result.toFixed(2)} ${elementSelect.value}`;
+        elementResult.innerText = `${value} PLN = ${result.toFixed(2)} ${select}`;
     }
 
     const onFormSubmit = (event) => {
