@@ -15,7 +15,8 @@
         const elementSelect = document.querySelector(".js-select");
         const elementResult = document.querySelector(".js-result");
         const value = elementValue.value;
-        const result = calculate(elementSelect.value, value);
+        const select = elementSelect.value;
+        const result = calculate(select, value);
         elementResult.innerText = `${elementValue.value} PLN = ${result.toFixed(2)} ${elementSelect.value}`;
     }
 
