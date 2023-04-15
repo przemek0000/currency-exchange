@@ -17,4 +17,4 @@
 - BEM 
 - ES6+ FEATURE
 
-Presented software: https://przemek0000.github.io/Module-5b/
+Presented software: https://przemek0000.github.io/currency-exchange/
